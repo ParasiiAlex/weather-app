@@ -12,3 +12,59 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.wrapper {
+  height: 100vh;
+
+  background: rgba(183, 222, 237, 1);
+  background: -moz-linear-gradient(
+    45deg,
+    rgba(183, 222, 237, 1) 0%,
+    rgba(113, 206, 239, 1) 0%,
+    rgba(33, 100, 224, 1) 0%,
+    rgba(129, 160, 227, 1) 24%,
+    rgba(16, 64, 168, 1) 100%
+  );
+  background: -webkit-gradient(
+    left bottom,
+    right top,
+    color-stop(0%, rgba(183, 222, 237, 1)),
+    color-stop(0%, rgba(113, 206, 239, 1)),
+    color-stop(0%, rgba(33, 100, 224, 1)),
+    color-stop(24%, rgba(129, 160, 227, 1)),
+    color-stop(100%, rgba(16, 64, 168, 1))
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(183, 222, 237, 1) 0%,
+    rgba(113, 206, 239, 1) 0%,
+    rgba(33, 100, 224, 1) 0%,
+    rgba(129, 160, 227, 1) 24%,
+    rgba(16, 64, 168, 1) 100%
+  );
+  background: -o-linear-gradient(
+    45deg,
+    rgba(183, 222, 237, 1) 0%,
+    rgba(113, 206, 239, 1) 0%,
+    rgba(33, 100, 224, 1) 0%,
+    rgba(129, 160, 227, 1) 24%,
+    rgba(16, 64, 168, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    45deg,
+    rgba(183, 222, 237, 1) 0%,
+    rgba(113, 206, 239, 1) 0%,
+    rgba(33, 100, 224, 1) 0%,
+    rgba(129, 160, 227, 1) 24%,
+    rgba(16, 64, 168, 1) 100%
+  );
+  background: linear-gradient(
+    45deg,
+    rgba(183, 222, 237, 1) 0%,
+    rgba(113, 206, 239, 1) 0%,
+    rgba(33, 100, 224, 1) 0%,
+    rgba(129, 160, 227, 1) 24%,
+    rgba(16, 64, 168, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#1040a8', GradientType=1 );
+}
